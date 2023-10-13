@@ -11,12 +11,12 @@ import java.util.Optional;
 
 // 서비스는 레포지토리에 비해 좀더 비즈니스 종속성이 있는 느낌
 
-@Service
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    @Autowired
+
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
